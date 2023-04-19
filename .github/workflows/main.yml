@@ -322,8 +322,5 @@ jobs:
         with:
          name: test_results
          path: test_report
-         - name: JMeter Test
-        with:
-          test-plan-path: ./PlanoTeste/ConsultaCEP.jmx
-          args: ""
+        
       
