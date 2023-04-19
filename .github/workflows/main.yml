@@ -323,7 +323,6 @@ jobs:
          name: test_results
          path: test_report
          - name: JMeter Test
-       uses: QAInsights/PerfAction@v3.1
         with:
           test-plan-path: ./PlanoTeste/ConsultaCEP.jmx
           args: ""
